@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-size: 16px;
+  padding: 2em;
+  background-color: #f4f5f9;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+.header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header span{
+  margin-right: 1em;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+.header button{
+  margin-right: 1em;
+  border: none;
+  background-color: #E1E4Ea;
+  font-size: 1em;
+  border-radius: 1em;
+  width: 6em;
+  height: 1.8em;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.divider{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2em;
+  box-sizing: border-box;
+  
+}
+.body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  box-sizing: border-box;
+}
+.single_mail{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 10em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  border:1px solid #CFD2DC;
+  background-color: #f2f2f2;
+  padding: 1.5em 1em 1.5em 1em;
+  box-sizing: border-box;
+}
+
+.img{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.imga{
+  width: 3em;
+  height: 3em;
+  background-color: #E54065;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.content{
+  width: 90%;
+  height: 7em;
+  display: flex;
+  padding-left:1em;
+  flex-direction: column;
+  color: #636363;
+  box-sizing: border-box;
+  
+}
+
+
+.content1 span, .content2 span{
+  margin: 0 0.1em 0 0 ;
+  box-sizing: border-box;
+}
+.content1{
+  margin-bottom: 0.3em;
+  width: 100%;
+  overflow-x: hidden;
+  height: 1.2em;
+  box-sizing: border-box;
+}
+.content1::-webkit-scrollbar {
+  display: none;
+}
+.content2{
+  margin-bottom: 0.6em;
+  width: 100%;
+  overflow-x: hidden;
+  height: 1.2em;
+  box-sizing: border-box;
+}
+.content2::-webkit-scrollbar {
+  display: none;
+}
+.content3{
+  margin-bottom: 0.6em;
+  width: 100%;
+  overflow-x: hidden;
+  height: 1.2em;
+  box-sizing: border-box;
+}
+.content3::-webkit-scrollbar {
+  display: none;
+}
+time{
+  overflow-x: hidden;
+  width: 100%;
+  height: 1.2em;
+}
+
+
+
+
+/******************Email Body**********/
+#selected_mail{
+  width: 40%;
+  height: 100%;
+
+}
+.selected_class{
+  width:56%;
+  height: 100%;
+  background-color: #f2f2f2;
+  display:flex;
+  margin-top: 1.85em;
+  margin-left: 1.5em;
+  border-radius: 1em;
+  border:1px solid #CFD2DC;
+  padding: 1.8em 3.12em 0 1.8em;
+  color: #636363;
+  /* line-height: 1.5; */
+
+}
+.imgb{
+  margin-right: 1.2em;
+}
+.smail_right{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+/*Scroolbar*/
+/* .smail_right::-webkit-scrollbar {
+  width: 0.7em;
+}
+.smail_right::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.smail_right::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+} */
+.smail_right::-webkit-scrollbar {
+  display: none;
+}
+/*Scroolbar*/
+
+.btn{
+  position: absolute;
+  width: 10em;
+  height: 1.8em;
+  font-size: 1.2em;
+  font-weight: bold;
+  top: 0em;
+  right: 0em;
+  
+}
+/***********************************************/
+
+
+
+
+
+
+
+
+
+/* page */
+.pagebtnp{
+  width: 3.5em;
+  height: 1.7em;
+  margin-right: 0.6em;
+  border-radius: 10%;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.pagebtnno{
+  width: 1.8em;
+  height: 1.8em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.pagebtnn{
+  width: 3.5em;
+  height: 1.7em;
+  margin-right: 0.6em;
+  border-radius: 10%;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
